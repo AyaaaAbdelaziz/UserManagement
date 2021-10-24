@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-24T20:06:51 EET" name="user management suite " finished-at="2021-10-24T20:07:04 EET" duration-ms="12816">
+    <groups>
+    </groups>
+    <test started-at="2021-10-24T20:06:51 EET" name="User management Test" finished-at="2021-10-24T20:07:04 EET" duration-ms="12816">
+      <class name="tests.CheckAddedUserTestCase">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:06:43 EET" name="startDriver" finished-at="2021-10-24T20:06:51 EET" duration-ms="8160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="Login()[pri:1, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:06:51 EET" name="Login" finished-at="2021-10-24T20:06:55 EET" duration-ms="3922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="NavigateToUserManagement()[pri:2, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:06:55 EET" name="NavigateToUserManagement" finished-at="2021-10-24T20:06:57 EET" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUserManagement -->
+        <test-method signature="AddUser()[pri:3, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:06:57 EET" name="AddUser" finished-at="2021-10-24T20:07:02 EET" duration-ms="4808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method signature="searchForUSer()[pri:4, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:07:02 EET" name="searchForUSer" finished-at="2021-10-24T20:07:03 EET" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForUSer -->
+        <test-method signature="OpenUserDetails()[pri:5, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:07:03 EET" name="OpenUserDetails" finished-at="2021-10-24T20:07:04 EET" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserDetails -->
+        <test-method signature="checkUser()[pri:6, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:07:04 EET" name="checkUser" finished-at="2021-10-24T20:07:04 EET" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUser -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.CheckAddedUserTestCase@66498326]" started-at="2021-10-24T20:07:04 EET" name="stopDriver" finished-at="2021-10-24T20:07:04 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.CheckAddedUserTestCase -->
+    </test> <!-- User management Test -->
+  </suite> <!-- user management suite  -->
+</testng-results>
